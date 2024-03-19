@@ -1,0 +1,96 @@
+
+.bottom-left {
+    background-image: url("er2.jpg");
+    color: black;
+    height: 604px;
+    background-attachment: fixed;
+    font-size: 20px;
+    padding-top: 10% ;
+
+
+
+}
+.bottom{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 20px;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+h1 {
+    color: white;
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: grey;
+    color: #fff;
+}
+.container {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Align items vertically in the center */
+}
+img {
+    width: 40%; /* Make sure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    padding: 60px;
+}
+/* Default link styles */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underlines by default */
+}
+
+/* Styling when the link is being hovered over */
+a:hover {
+    color: #0056b3; /* Link color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Styling for visited links */
+a:visited {
+    color: #007bff; /* Visited link color */
+}
+
+/* Styling for active links (when clicked) */
+a:active {
+    color: #ff0000; /* Active link color */
+}
